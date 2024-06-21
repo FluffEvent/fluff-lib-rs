@@ -1,5 +1,6 @@
 pub mod dynamodb;
 pub mod s3;
+pub mod parameter_store;
 
 
 pub static TABLE_USERS: &str = "Fluff-Users";
